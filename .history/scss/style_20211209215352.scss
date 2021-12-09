@@ -1,0 +1,179 @@
+$bg-color: #f7f9fc;
+
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color;
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #ffffff;
+}
+main,
+section {
+  width: 100%;
+}
+.header {
+  max-width: 1218px;
+  padding: 0 24px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.header__logo-wrapper {
+}
+.header__logo {
+}
+.header__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.header__user,
+.header__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.header__user {
+}
+.header__username {
+}
+.header__avatar-wrapper {
+}
+.header__avatar {
+}
+.header__arrow-wrapper {
+}
+.header__arrow {
+}
+.header__icons {
+}
+.header__share-wrapper {
+}
+.header__share {
+}
+.header__notifications-wrapper {
+}
+.header__notifications {
+}
+.header__medium-wrapper {
+}
+.header__medium {
+}
+.header__navigation-wrapper {
+}
+.header__navigation {
+}
+.header__btn-wrapper {
+}
+.header__btn {
+}
+.profile {
+}
+.profile__user-details {
+}
+.profile__general {
+}
+.profile__avatar-wrapper {
+}
+.profile__avatar {
+}
+.profile__name-wrapper {
+}
+.profile__name {
+}
+.profile__dots-wrapper {
+}
+.profile__dots {
+}
+.profile__instagram {
+}
+.profile__edit-btn {
+}
+.profile__statistics {
+}
+.profile__synths {
+}
+.profile__followers {
+}
+.profile__following {
+}
+.profile__description {
+}
+.profile__switcher {
+}
+.profile__cards-wrapper {
+}
+.profile-card {
+}
+.profile-card__headline {
+}
+.profile-card__bottom {
+}
+.profile-card__author-wrapper {
+}
+.profile-card__author-photo {
+}
+.profile-card__author {
+}
+.profile-card__author-name {
+}
+.profile-card__actions-wrapper {
+}
+.profile-card__share-wrapper {
+}
+.profile-card__share-link {
+}
+.profile-card__top {
+}
+.profile-card__icon-wrapper {
+}
+.profile-card__view-icon {
+}
+.profile-card__icon-counter {
+}
+.profile-card__like-icon {
+}
+.weblink-shared {
+}
