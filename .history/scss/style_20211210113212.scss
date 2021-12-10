@@ -650,87 +650,31 @@ p + .profile-card__headline {
   background-color: #ffffff;
   padding: 24px 0;
   min-width: 176px;
-  -webkit-box-shadow: 0px 12px 20px 0px rgba(34, 60, 80, 0.12);
-  -moz-box-shadow: 0px 12px 20px 0px rgba(34, 60, 80, 0.12);
-  box-shadow: 0px 12px 20px 0px rgba(34, 60, 80, 0.12);
-  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  opacity: 0.94;
 }
-.profile__dots-option-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 38px;
-  width: 100%;
-}
+
 .profile__dots-content {
-  .profile__dots-option {
-    color: $main-color;
-    padding: 0 0 0 50px;
-    font: 600 16px / 18px "Open Sans", sans-serif;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    &:before {
-      position: absolute;
-      content: "";
-      height: 16px;
-      width: 16px;
-      background-position: center;
-      background-size: 100%;
-      background-repeat: no-repeat;
-      left: 24px;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-    }
-    &#report-user {
-      &:before {
-        background-image: url("../img/icon-report.svg");
-      }
-    }
-    &#block-user {
-      &:before {
-        background-image: url("../img/icon-delete.svg");
-      }
-    }
+  a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
   }
 }
 
 .profile__dots-content {
-  .profile__dots-option {
+  a {
     &:hover {
-      background-color: rgba($color: $text-bg-color, $alpha: 0.6);
+      background-color: #ddd;
     }
   }
 }
 
-.profile__dots-wrapper:hover .profile__dots-content,
-.profile__dots-wrapper:active .profile__dots-content {
+.profile__dots-wrapper:hover .profile__dots-content {
   display: block;
+}
+
+.profile__dots-wrapper:hover .dropbtn {
+  background-color: #3e8e41;
 }

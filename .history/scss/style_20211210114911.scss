@@ -700,6 +700,7 @@ p + .profile-card__headline {
       content: "";
       height: 16px;
       width: 16px;
+      background-image: url("../img/shared-link.svg");
       background-position: center;
       background-size: 100%;
       background-repeat: no-repeat;
@@ -708,16 +709,6 @@ p + .profile-card__headline {
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
-    }
-    &#report-user {
-      &:before {
-        background-image: url("../img/icon-report.svg");
-      }
-    }
-    &#block-user {
-      &:before {
-        background-image: url("../img/icon-delete.svg");
-      }
     }
   }
 }

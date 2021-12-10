@@ -709,12 +709,12 @@ p + .profile-card__headline {
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
     }
-    &#report-user {
+    #report-user {
       &:before {
         background-image: url("../img/icon-report.svg");
       }
     }
-    &#block-user {
+    #block-user {
       &:before {
         background-image: url("../img/icon-delete.svg");
       }
